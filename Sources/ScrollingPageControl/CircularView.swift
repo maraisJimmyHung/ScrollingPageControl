@@ -24,8 +24,8 @@ class CircularView: UIView {
 	}
 	
 	private func updateCornerRadius() {
-        layer.borderColor = UIColor.lightGray.cgColor
-        layer.borderWidth = 1
+        layer.borderColor = UIColor(red: 47/255, green: 98/255, blue: 121/255, alpha: 1).cgColor
+        layer.borderWidth = 0.5
 		layer.cornerRadius = min(bounds.width, bounds.height) / 2
 	}
 }
